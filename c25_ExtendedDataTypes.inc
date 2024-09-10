@@ -1,0 +1,20 @@
+Int1                                                EQUATE(byte)
+Int8                                                EQUATE(byte)
+Int16                                               EQUATE(short)
+UInt16                                              EQUATE(ushort)
+Int32                                               EQUATE(long)
+UInt32                                              EQUATE(ulong)
+PtrInt32                                            EQUATE(long)
+ByteArray                                           EQUATE(STRING)
+IndexPtr32                                          EQUATE(long)
+
+!Int1Value                                                                   Int1
+!Int8Value                                                                   Int8
+!Int16Value                                                                  Int16
+!UInt16Value                                                                 UInt16
+!Int32Value                                                                  Int32
+!UInt32Value                                                                 Int32
+!Int64Value                                                                  Like(INT64)
+!UInt64Value                                                                 Like(INT64)
+!StringValue                                                                 &String
+!StringTheoryValue                                                           &StringTheory
